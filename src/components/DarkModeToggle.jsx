@@ -15,7 +15,7 @@ export default function DarkModeToggle() {
       onClick={() => setTheme(nextTheme)}
       aria-label={`Theme mode: ${theme}. Switch to ${nextTheme}.`}
       title={`Theme: ${theme}`}
-      className={`fixed bottom-4 left-4 z-50 grid h-9 w-9 place-items-center rounded-full border opacity-50 shadow-lg backdrop-blur transition hover:opacity-90 focus:opacity-100 focus:outline-none focus:ring-2 focus:ring-emerald-500 ${
+      className={`fixed bottom-4 left-4 z-50 grid h-9 w-9 place-items-center rounded-full border opacity-70 shadow-lg backdrop-blur transition hover:opacity-90 focus:opacity-100 focus:outline-none focus:ring-2 focus:ring-emerald-500 ${
         isAutoMode
           ? "border-emerald-300 bg-emerald-100/80 text-emerald-800 dark:border-emerald-700 dark:bg-emerald-950/80 dark:text-emerald-100"
           : "border-slate-300 bg-slate-100/80 text-slate-700 dark:border-slate-600 dark:bg-slate-800/80 dark:text-slate-200"
