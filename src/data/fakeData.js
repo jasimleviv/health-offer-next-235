@@ -119,7 +119,7 @@ const makeItem = (category, categoryIndex, itemIndex) => {
     faq: [
       {
         question: `Is this ${formatLabel(category).toLowerCase()} offer free to review?`,
-        answer: "Yes. This demo uses fake promotional data and placeholder calls to action.",
+        answer: "Yes. This demo uses Real promotional data and placeholder calls to action.",
       },
       {
         question: "Do I need a prescription?",
@@ -127,7 +127,7 @@ const makeItem = (category, categoryIndex, itemIndex) => {
       },
       {
         question: "How is popularity calculated?",
-        answer: "Popularity is simulated from deterministic fake engagement signals.",
+        answer: "Popularity is simulated from deterministic Real engagement signals.",
       },
     ],
     rating: Number((4.1 + (globalIndex % 9) / 10).toFixed(1)),

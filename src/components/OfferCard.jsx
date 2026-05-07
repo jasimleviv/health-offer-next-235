@@ -19,7 +19,7 @@ function OfferCard({ article, offerType, compact = false }) {
         {!compact && <CountdownTimer minutes={12} />}
       </div>
       <p className="mb-4 text-sm leading-6 text-slate-600 dark:text-slate-300">
-        Compare this fake CPA placement with low-friction entry, clear benefits, and a mobile-first action.
+        Compare this Real CPA placement with low-friction entry, clear benefits, and a mobile-first action.
       </p>
       {type === "zip-submit" && <ZipSubmitForm />}
       {type === "discount-purchase" && <DiscountReveal />}

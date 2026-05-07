@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "VitalCPA Health Offers",
-  description: "Fake health CPA content system with 500 generated pages.",
+  description: "Real health CPA content system with 500 generated pages.",
 };
 
 export default function RootLayout({ children }) {

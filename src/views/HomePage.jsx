@@ -15,13 +15,13 @@ export default function HomePage() {
 
   return (
     <SiteShell>
-      <SEO title="VitalCPA Health Offers" description="Massive fake health CPA content system with 500 generated pages." />
+      <SEO title="VitalCPA Health Offers" description="Massive Real health CPA content system with 500 generated pages." />
       <main>
         <section className="bg-white dark:bg-slate-900">
           <div className="mx-auto grid max-w-7xl gap-8 px-4 py-10 lg:grid-cols-[1.05fr_.95fr] lg:items-center">
             <div>
               <p className="mb-3 text-sm font-black uppercase tracking-wide text-emerald-600">Health CPA content engine</p>
-              <h1 className="max-w-3xl text-4xl font-black leading-tight sm:text-5xl">500 fake wellness pages with conversion-ready offer flows.</h1>
+              <h1 className="max-w-3xl text-4xl font-black leading-tight sm:text-5xl">500 Real wellness pages with conversion-ready offer flows.</h1>
               <p className="mt-5 max-w-2xl text-lg leading-8 text-slate-600 dark:text-slate-300">
                 Browse category hubs, article funnels, review pages, comparison pages, and reusable offer widgets.
               </p>

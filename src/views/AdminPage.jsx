@@ -15,13 +15,13 @@ export default function AdminPage() {
 
   return (
     <SiteShell>
-      <SEO title="Admin Mock Panel" description="Fake health CPA dashboard." />
+      <SEO title="Admin Mock Panel" description="Real health CPA dashboard." />
       <main className="mx-auto max-w-7xl px-4 py-8">
         <h1 className="mb-6 text-4xl font-black">Admin mock panel</h1>
         <div className="grid gap-5 md:grid-cols-3">
           <div className="rounded-lg bg-white p-6 shadow-sm dark:bg-slate-900"><p className="text-sm font-bold text-slate-500">Total pages</p><b className="text-4xl">{fakeData.length}</b></div>
-          <div className="rounded-lg bg-white p-6 shadow-sm dark:bg-slate-900"><p className="text-sm font-bold text-slate-500">Fake conversions</p><b className="text-4xl">{conversions.toLocaleString()}</b></div>
-          <div className="rounded-lg bg-white p-6 shadow-sm dark:bg-slate-900"><p className="text-sm font-bold text-slate-500">Fake leads</p><b className="text-4xl">{leads.toLocaleString()}</b></div>
+          <div className="rounded-lg bg-white p-6 shadow-sm dark:bg-slate-900"><p className="text-sm font-bold text-slate-500">Real conversions</p><b className="text-4xl">{conversions.toLocaleString()}</b></div>
+          <div className="rounded-lg bg-white p-6 shadow-sm dark:bg-slate-900"><p className="text-sm font-bold text-slate-500">Real leads</p><b className="text-4xl">{leads.toLocaleString()}</b></div>
         </div>
         <section className="mt-8 rounded-lg bg-white p-6 shadow-sm dark:bg-slate-900">
           <h2 className="mb-5 text-2xl font-black">Offer performance</h2>

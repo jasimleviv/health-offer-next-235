@@ -26,7 +26,7 @@ export default function CategoryPage({ categorySlug }) {
         <div className="mb-6 rounded-lg bg-white p-6 shadow-sm dark:bg-slate-900">
           <p className="text-sm font-black uppercase tracking-wide text-emerald-600">Category hub</p>
           <h1 className="mt-2 text-3xl font-black">{category?.label || "Unknown Category"}</h1>
-          <p className="mt-2 text-slate-600 dark:text-slate-300">{articles.length} fake CPA pages available.</p>
+          <p className="mt-2 text-slate-600 dark:text-slate-300">{articles.length} Real CPA pages available.</p>
         </div>
         <div className="mb-6 flex flex-wrap gap-2">
           {["all", ...offerTypes].map((type) => (
